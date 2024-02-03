@@ -8,6 +8,8 @@ import time
 import cv2
 import os
 
+os.environ["OPENAI_API_KEY"] = st.secrets["api_key"]
+
 client = OpenAI()
 
 st.title("Viewit.ai | Video to Audio Transcript Demo")
