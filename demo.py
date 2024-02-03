@@ -4,7 +4,6 @@ import streamlit as st
 import tempfile
 import requests
 import base64
-import time
 import cv2
 import os
 
